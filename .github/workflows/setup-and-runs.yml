@@ -11,8 +11,6 @@ jobs:
         run: npm install
       - name: run build
         run: npm run build
-      - name: start
-        run: npm start
       - name: run test
         run: npm test
       - run: npx eslint .
